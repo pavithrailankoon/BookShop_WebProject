@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Samudra Bookshop</title>
+    
+    <link rel="stylesheet" href="cc.css">
+    <script src="https://kit.fontawesome.com/f15f943bef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="contact">
+    <div class="content">
+        <h2>Contact Us</h2>
+        
+    </div>
+
+    <div class="container">
+        <div class="contactInfo">
+            <div class="box">
+               <div class="icon"> <i class="fa-solid fa-house"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>No 06, Thangalle road,<br>Matara</p>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>0412298789</p>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+        
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>samudrastationaries@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form >
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+            
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea  name="message" required="required" ></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox"><input type="submit" name="" value="Send"  > </div>
+                    
+                                           
+                    <div class="popup" id="popup">
+                        <img src="tick.png" >
+                        <h2>Thank you</h2>
+                        <p>your message has been recordered</p>
+                        <button type="button"  onclick="closePopup()">OK</button>
+                    </div>
+                    
+                    
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        let popup = document.getElementById("popup");
+         function openPopup(){
+            popup.classList.add("open-popup");
+         }
+         function closePopup(){
+            popup.classList.remove("open-popup");
+         }
+    </script>
+</body>
+</html>

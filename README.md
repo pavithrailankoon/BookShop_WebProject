@@ -1,2 +1,2 @@
 # BookShop_WebProject
-This is our first website that develop front-end and back-end.
+ This is our first website project for a bookshop. 
